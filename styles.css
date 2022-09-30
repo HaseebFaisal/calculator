@@ -1,0 +1,44 @@
+body {
+    background-color: aquamarine;
+}
+
+.btn {
+    background-color: #eee;
+}
+
+.screen {
+
+}
+
+.calculator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.buttons {
+    width: 155px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.btn {
+    height: 50px;
+    padding: 20px;
+    border: none;
+    margin: 1px;
+}
+
+#decimal {
+    padding: 22px;
+}
+
+#0 {
+    align-self: center;
+}
+
+#screen {
+    margin: 20px;
+    padding: 50px;
+}
